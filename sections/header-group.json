@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store 233",
-            "text_alignment": "left",
+            "text_alignment": "center",
             "color_scheme": "scheme-1",
             "link": ""
           }

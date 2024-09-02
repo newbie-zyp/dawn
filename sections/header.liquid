@@ -148,7 +148,10 @@
 
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
+        <h1 class="header__heading"       
+          {% if settings.logo_margin %}
+              style="margin-right: {{ settings.logo_margin }}px;"
+          {% endif %}>
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}
@@ -188,7 +191,10 @@
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
+        <h1 class="header__heading"
+          {% if settings.logo_margin %}
+            style="margin-right: {{ settings.logo_margin }}px;"
+          {% endif %}>
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if settings.logo != blank -%}

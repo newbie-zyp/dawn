@@ -26,6 +26,17 @@
         "label": "t:settings_schema.logo.settings.logo_width.label"
       },
       {
+        "type": "range",
+        "id": "logo_margin",
+        "min": 0,
+        "max": 10,
+        "step": 2,
+        "default": 4,
+        "unit": "px",
+        "label": "t:settings_schema.logo.settings.logo_margin.label",
+        "info": "t:settings_schema.logo.settings.logo_margin.info"
+      },
+      {
         "type": "image_picker",
         "id": "favicon",
         "label": "t:settings_schema.logo.settings.favicon.label",

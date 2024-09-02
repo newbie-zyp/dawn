@@ -322,6 +322,10 @@
           "label": "台式电脑 logo 宽度",
           "info": "logo 宽度会针对移动设备进行自动优化。"
         },
+        "logo_margin": {
+          "label": "台式电脑 logo 右边距",
+          "info": "logo 宽度跟右边内容的距离。"
+        },
         "favicon": {
           "label": "网站图标图片",
           "info": "将缩小到 32 x 32px"
